@@ -3,15 +3,14 @@ quantum-loaders
 
 Minimal CSS3 Loading Animations
 
-Each loader can be called with their respective name:
+Each loader can be called with their respective names/classes:
 
-Heartbeat:
-<div class="heartbeat"></div>
+Heartbeat: "heartbeat"
 
-Gooey:
-<div class="gooey"></div>
+Gooey: "gooey"
 
-Hypno:
-<div class="hypno"></div>
+Hypno: "hypno"
 
 Positioning is relative by default, and can be set to absolute by the user to reposition. Colors and sizes are static, but can also be modified externally.
+
+@keyframes are cross-browser using -webkit, -moz, and static keyframes.
