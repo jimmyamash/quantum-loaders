@@ -7,6 +7,8 @@
 	background-color: rgba(200,0,0,.5);
 	-webkit-animation: heartbeat .6s infinite;
 	animation: heartbeat .6s infinite;
+    position: relative;
+    margin: auto;
 }
 .gooey {
 	width: 30px;
@@ -17,6 +19,8 @@
 	background-color: rgba(0,200,0,.5);
 	-webkit-animation: gooey .6s infinite;
 	animation: gooey .6s infinite;
+    position: relative;
+    margin: auto;
 }
 .hypno {
 	width: 10px;
@@ -27,6 +31,8 @@
 	background-color: rgba(0,0,200,.5);
 	-webkit-animation: hypno .2s infinite;
 	animation: hypno .2s infinite;
+    position: relative;
+    margin: auto;
 }
 @-webkit-keyframes heartbeat {
 	0%     { -webkit-transform: scale(1,1); }
@@ -34,54 +40,54 @@
 	50%    { background-color: rgba(200,0,0,.2); }
 	100%   { -webkit-transform: scale(1,1); }
 }
-@-moz-keyframes heartbeat{
+@-moz-keyframes heartbeat {
 	0%     { -moz-transform: scale(1,1); }
 	49%    { -moz-transform: scale(.5,.5); }
 	50%    { background-color: rgba(200,0,0,.2); }
 	100%   { -moz-transform: scale(1,1); }
 }
-@keyframes heartbeat{
+@keyframes heartbeat {
 	0%     { transform: scale(1,1); }
 	49%    { transform: scale(.5,.5); }
 	50%    { background-color: rgba(200,0,0,.2); }
 	100%   { transform: scale(1,1); }
 }
-@-webkit-keyframes gooey{
+@-webkit-keyframes gooey {
 	0%     { -webkit-transform: scale(1,1); }
 	25%    { -webkit-transform: scale(1.5,1); }
 	50%    { -webkit-transform: scale(1,1.5); }
 	75%    { -webkit-transform: scale(1.5,1); }
 	100%   { -webkit-transform: scale(1,1); }
 }
-@-moz-keyframes gooey{
+@-moz-keyframes gooey {
 	0%     { -moz-transform: scale(1,1); }
 	25%    { -moz-transform: scale(1.5,1); }
 	50%    { -moz-transform: scale(1,1.5); }
 	75%    { -moz-transform: scale(1.5,1); }
 	100%   { -moz-transform: scale(1,1); }
 }
-@keyframes gooey{
+@keyframes gooey {
 	0%     { transform: scale(1,1); }
 	25%    { transform: scale(1.5,1); }
 	50%    { transform: scale(1,1.5); }
 	75%    { transform: scale(1.5,1); }
 	100%   { transform: scale(1,1); }
 }
-@-webkit-keyframes hypno{
+@-webkit-keyframes hypno {
 	0%     { -webkit-transform: rotate(0deg); }
 	25%    { -webkit-transform: rotate(90deg); }
 	50%    { -webkit-transform: rotate(180deg); }
 	75%    { -webkit-transform: rotate(270deg); }
 	100%   { -webkit-transform: rotate(360deg); }
 }
-@-moz-keyframes hypno{
+@-moz-keyframes hypno {
 	0%     { -moz-transform: rotate(0deg); }
 	25%    { -moz-transform: rotate(90deg); }
 	50%    { -moz-transform: rotate(180deg); }
 	75%    { -moz-transform: rotate(270deg); }
 	100%   { -moz-transform: rotate(360deg); }
 }
-@keyframes hypno{
+@keyframes hypno {
 	0%     { transform: rotate(0deg); }
 	25%    { transform: rotate(90deg); }
 	50%    { transform: rotate(180deg); }
