@@ -9,8 +9,8 @@
 	background-color: rgba(200,0,0,.5);
 	-webkit-animation: heartbeat .6s infinite;
 	animation: heartbeat .6s infinite;
-    position: relative;
-    margin: auto;
+	position: relative;
+	margin: auto;
 }
 .gooey {
 	width: 30px;
@@ -21,8 +21,8 @@
 	background-color: rgba(0,200,0,.5);
 	-webkit-animation: gooey .6s infinite;
 	animation: gooey .6s infinite;
-    position: relative;
-    margin: auto;
+	position: relative;
+	margin: auto;
 }
 .hypno {
 	width: 10px;
@@ -33,8 +33,8 @@
 	background-color: rgba(0,0,200,.5);
 	-webkit-animation: hypno .2s infinite;
 	animation: hypno .2s infinite;
-    position: relative;
-    margin: auto;
+	position: relative;
+	margin: auto;
 }
 @-webkit-keyframes heartbeat {
 	0%     { -webkit-transform: scale(1,1); }
