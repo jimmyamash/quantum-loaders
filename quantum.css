@@ -8,6 +8,10 @@
     left: 0;
     margin: auto;
 }
+.quantum-r {
+    position: relative;
+    margin: auto;
+}
 .heartbeat {
 	width: 30px;
 	height: 30px;
