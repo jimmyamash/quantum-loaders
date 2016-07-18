@@ -7,10 +7,10 @@ Each loader can be called with their respective names/classes:
 
 For all loaders, add class `quantum`, this will handle positioning.
 
-Heartbeat
+Heartbeat:
 `<div class="quantum heartbeat">`
 
-Gooey
+Gooey:
 `<div class="quantum gooey">`
 
 Hypno:
