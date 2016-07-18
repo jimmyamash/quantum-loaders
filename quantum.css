@@ -1,8 +1,12 @@
 /* Crafted with ♥ by Jimmy Amash */
 
 .quantum {
-	position: relative;
-	margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
 }
 .heartbeat {
 	width: 30px;
